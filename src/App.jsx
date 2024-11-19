@@ -25,7 +25,7 @@ export const App = () => {
       <div data-cy="TabsComponent">
         <Tabs
           tabs={tabs}
-          activeTab={activeTab}
+          activeTabId={activeTab}
           onTabSelected={handleTabClick}
         />
         <div className="block" data-cy="TabContent">
